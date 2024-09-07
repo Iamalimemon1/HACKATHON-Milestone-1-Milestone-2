@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Ali Jawaid</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4zFazVkm48Qa49epmJ1TqXBoEPMCFY3nr5g&s"
+        type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Oswald:wght@200..700&family=Protest+Guerrilla&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Ali Jawaid</h1>
+            <img id="dp" src="./Alidesignzz.gif">
+            <p><strong>Contact: <a href="mailto:iamalimemon11@gmail.com"></strong>Iamalimemon11@gmail.com</a>
+                | <a href="tel:+923308881210"> +923308881210</a></p>
+        </header>
+        <div class="sections">
+            <button class="toggle-button red" onclick="toggleSection('education')">Education</button>
+            <div id="education" class="section">
+                <h2 class="text-red">Education</h2>
+                <p>Intermediate</p>
+                <p>Government Muslim Science Degree College, 2023</p>
+            </div>
+            <button class="toggle-button yellow" onclick="toggleSection('skills')">Skills</button>
+            <div id="skills" class="section">
+                <h2 class="text-yellow">Skills</h2>
+                <ul>
+                    <li>Graphic Design</li>
+                    <li>HTML/CSS</li>
+                    <li>TypeScript/Javascript</li>
+                    <li>React</li>
+                </ul>
+            </div>
+            <button class="toggle-button green" onclick="toggleSection('work')">Work Experience</button>
+            <div id="work" class="section">
+                <h2 class="text-green">Work Experience</h2>
+                <p>Top Rated Seller at Upwork</p>
+                <p>Oct 2022 - Present</p>
+                <p>Leve l Seller at Fiverr</p>
+                <p>Oct 2021 - Present</p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
